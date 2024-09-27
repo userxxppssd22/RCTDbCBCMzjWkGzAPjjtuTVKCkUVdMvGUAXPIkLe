@@ -116,10 +116,8 @@ public:
 	char pad_0193[13];
 	char m_script_status_queried;
 
-#ifdef YimMenu
 	int get_participant_index(CNetGamePlayer* player);
 	bool is_player_a_participant(CNetGamePlayer* player);
-#endif
 
 	inline bool is_local_player_host()
 	{
